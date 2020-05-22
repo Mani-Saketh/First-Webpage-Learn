@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Lato:ital,wght@1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --balsamiqsans: "balsamiqsans", cursive;
+    --lato: "lato", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-gray: rgb(255, 255, 255);
+}
+
+header a {
+    font-family: var(--lato);
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+
+header {
+    background: #dd2476;
+    background: var(--bggradient);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 160px;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background: #ddd;
+}
+
+.dropdown.dropdown-content {
+    display: block;
+}
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header.nav-item {
+    padding: 0.9em;
+}
+
+header.navbar-brand {
+    padding-left: 8rem;
+}
+
+header .nav-link:hover {
+    color: black;
+}
+
+header .row.clo-md-5 {
+    padding: 4.2vmin ivmin;
+}
+
+header.row.col-md-7 {
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header .row.col-md-5 img {
+    width: 90%;
+}
+
+header .container.col-md-7 h6 {
+    padding: 1vmin;
+    spacing: 4px;
+}
+
+header.container.col-md-7 h1 {
+    font-size: 8.5vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+}
+
+header .container.col-md-7p {
+    padding: 1vmin 5vmin;
+}
+
+header .container.col-md-7 button {
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.section1 {
+    padding: 20vmin 0;
+}
+
+.section1.row.col-md-6 .pray img {
+    opacity: 0.4;
+    width: 10%;
+    border-radius: 0.2em;
+}
+
+.section1.row.col-md-6:last-child {
+    position: relative;
+}
+
+.section1.row.col-md-6.panel {
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    font-family: var(--lato);
+    z-index: 1;
+}
+
+.section1.row.col-md-6.section1.row.col-md-6.panel h1 {
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+}
+
+.section1.row.col-md-6.panel p {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.cover {
+    background: url(../assets/strategy.png);
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+    padding: 80vmin;
+}
+
+.cover.content {
+    height: 200%;
+    width: 100%;
+    color: red;
+}
+
+.cover.content>h1 {
+    color: black;
+}
+
+.cover.content>p {
+    color: black;
+    font-weight: bold;
+}
+
+.card-deck {
+    margin: auto;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%;
+
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.cool {
+    background: url(../assets/images\ \(1\).jfif);
+    padding: 15vmin;
+    color: darkred;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.815);
+    padding: 14vmin 18vmin;
+    overflow-x: auto;
+}
